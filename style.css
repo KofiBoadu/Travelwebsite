@@ -103,16 +103,15 @@
 
 .places{
     height: 500px;
-    width: 400px;
-    margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
-    
+    margin: 30px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 
 .places img{
     height: 500px;
     width: 400px;
+    border-radius: 10px;
 }
 
 .bottom-right{
@@ -132,24 +131,58 @@
 
 .info{
     display: flex;
-    border-style: solid;
     margin-top: 200px;
     background-color: #fefaf5; 
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 
-.hours {
- display: block;
- width: 400px;
- border-style: solid;
- justify-content: left;
- 
+.email{
+   
+}
+
+.email h4{
+   color: rgb(220, 124, 15);
+   margin-top: 50px;
+}
+
+.hours{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hours h3{
+    width: 100%;
+    
+}
+.hours h4{
+    color: rgb(220, 124, 15);
 }
 
 .days{
-     display: flex;
-    text-align: left;
-    border-style: solid;
+    width: 150px;
+   
+    
+
 }
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    padding: 0px;
+    margin-top: 50px ;
+    margin-right: 80px;
+    
+}
+.image{
+ 
+
+}
+.image img{
+    height: 40px ;
+    
+}
+
 
