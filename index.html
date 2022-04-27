@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
     
     
     <title>Travelwebsite</title>
@@ -17,7 +18,7 @@
  <h3>Travel Site</h3>
 
  <ul>
-    <li><a href="/homepage/index.html">Home</a></li>
+    <li class="underline "><a href="/index.html">Home</a></li>
     <li> <a href="/hawai/index.html">Hawaii</a></li>
     <li><a href="/iceland/index.html">Iceland</a></li>
     <li><a href="/greece/index.html">Greece</a></li>
@@ -29,11 +30,16 @@
 <!--front page starts -->
 <div class="frontpage">
  <div class="message">
- <h1>Travelling Comes with Endless Discoveries</h1>
+ <h1>Travelling Comes with<br>Endless Discoveries</h1>
 
  <p> Dont let your dreams  be just dreams .Experience the world 
-     by booking a vacation with us now
+     by booking a <br>vacation with us now
  </p>
+
+ 
+ <div class="button">
+    <button>Get Started</button>
+ </div>
 
  </div>
 
@@ -41,9 +47,6 @@
  <img src="./images/hero.png" alt="">
  </div>
 
- <div class="button">
-    <button>Get Started</button>
- </div>
 
 </div>
 
@@ -59,26 +62,24 @@
 
  <div class=" destinations ">
 
-    <div class="hawai">
-     
-    <img src="./images/hawaii.jpg" alt="">
-     <h4>Hawaii</h4>
-    </div>
-    
-    <div class="ice-land">
-
-    <img src="./images/iceland.jpg" alt="">
-
-    <h4>Iceland</h4>
-    </div>
-
-
-    <div class=" greece">
-     <img src="./images/greece.jpg" alt="">
-    <h4>Greece</h4>
+    <div class="places">
+        <img src="/images/hawaii.jpg" alt="">
+        <div class="bottom-right">Hawaii</div>
 
     </div>
-    
+
+    <div class="places">
+     <img src="/images/iceland.jpg" alt="">
+     <div class="bottom-right">Iceland</div>
+    </div>
+      
+    <div class="places"> 
+        <img src="/images/greece.jpg" alt="">
+        <div class="bottom-right">Greece</div>
+    </div>
+
+
+   
 
  </div>
 
