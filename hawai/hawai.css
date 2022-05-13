@@ -1,3 +1,6 @@
 .main{
-    background-image: url(/homepage/images/hawaii.jpg);
+    border-style: solid;
+    background-image: url(/images/hawaii.jpg);
+    background-position: 60vh;
+    background-position: 70vw;
 }
