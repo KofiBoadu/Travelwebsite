@@ -1,6 +1,8 @@
 .main{
     border-style: solid;
     background-image: url(/images/hawaii.jpg);
-    background-position: 60vh;
-    background-position: 70vw;
+    background-position:center;
+    background-size: cover;
+    height:1050px;
+    background-size: 220vh;
 }
