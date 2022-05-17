@@ -1,3 +1,13 @@
-.main{
-    background-image: url(/homepage/images/iceland.jpg);
+.main1{
+    background-image: url(/images/iceland.jpg);
+    background-size: cover;
+    height:790px;
+    background-position: 0vh
+}
+
+.main1 h1{
+
+    font-size: 90px;
+    color: white;
+    padding: 80px;
 }
