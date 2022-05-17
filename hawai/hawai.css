@@ -16,7 +16,6 @@
 .menu{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     margin-top: 70px;
     
 }
@@ -26,6 +25,7 @@
     width: 250px;
     background-color: white;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .days-1 h3{
