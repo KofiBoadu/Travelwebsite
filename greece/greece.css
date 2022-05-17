@@ -1,3 +1,13 @@
-.main{
+.main2{
     background-image: url(/images/greece.jpg);
+    background-size: cover;
+    height:790px;
+    background-position: 0vh
+      
+}
+
+.main2 h1{
+    font-size: 90px;
+    color: white;
+      padding: 80px;
 }
